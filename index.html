@@ -9,27 +9,29 @@
   <title>Projeto Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <header>
+  <header class="container">
     <nav>
-      <ul>
+      <ul class="header-lista_01 grid-5">
         <li><a href="#" target="_blank">Portfolio</a></li>
-        <li><a href="#" target="_blank">Clientes</a></li>
+        <li><a href="#" target="_blank">Clients</a></li>
         <li><a href="#" target="_blank">News</a></li>
         <li><a href="#" target="_blank">About Me</a></li>
         <li><a href="#" target="_blank">Contact</a></li>
       </ul>
 
-      <div>
+      <div class="grid-2 logo-container">
         <img src="img/logo-amarelo.jpg" alt="Logotipo">
       </div>
 
-      <ul>
+      <ul class="grid-5 header-lista_02">
         <li><a href="#" target="_blank"><img src="img/facebook.jpg" alt="Facebook"/></a></li>
 
         <li><a href="#" target="_blank"><img src="img/twitter.jpg" alt="Twitter"/></a></li>
@@ -44,12 +46,9 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <div>
-        <img src="img/seta-fechada.jpg" alt="seta fechada">
-      </div>
-      <div>
+  <main class="container">
+    <section class="card grid-3">
+      <div class="card-descricao">
         <ul>
           <li>
             <h3>Morgan Freeman</h3>
@@ -57,11 +56,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla mi orci, ac venenatis ante venenatis eget.</p>
           </li>
         </ul>
+        <div class="card-emoji">
+          <span>&#9829;</span>
+          <span>&#8618</span>
+          <span>&#x2709;</span>
+        </div>
       </div>
-      <div>
-        <span>coração</span>
-        <span>share</span>
-        <span>email</span>
+      <div class="card-seta">
+        <img src="img/seta-fechada.jpg" alt="seta fechada">
       </div>
     </section>
   </main>

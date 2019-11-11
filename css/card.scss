@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  margin-top: 879px;
+}
+
+.card-seta {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card-descricao {
+ margin-top: 60px;
+ h3 {
+   color: #362f2f;
+   text-transform: uppercase;
+   font-size: 18px;
+ }
+ h4 {
+   font-style: italic;
+   font-size: 14px;
+   color: #362f2f;
+ }
+ p {
+   color: #362f2f;
+   font-weight: lighter;
+   font-size: 14px;
+   line-height: 14px;
+   margin-top: 14px;
+   max-width: 162px;
+ }
+}
+.card-emoji {
+  margin-top: 60px;
+  span {
+    font-size: 25px;
+    color: #c29f00;
+    cursor: pointer;
+    margin-right: 80px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
